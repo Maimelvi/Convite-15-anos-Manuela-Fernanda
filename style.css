@@ -1088,6 +1088,10 @@ body {
 
 }
 
+.pix{
+    font-size: 15px;
+}
+
 
 /* =========================================
    CONFIRMAÇÃO
@@ -1324,4 +1328,42 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+/* =========================================
+   TRAJE ESPORTE FINO
+========================================= */
+
+.traje-secao h2 {
+    color: var(--dourado-claro);
+    font-size: clamp(28px, 7vw, 40px);
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.traje-imagem {
+    width: min(90vw, 560px);
+    margin: 25px auto 0;
+    padding: 8px;
+    border: 1px solid var(--dourado);
+    background: #170407;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .4);
+}
+
+.traje-imagem img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.traje-imagem figcaption {
+    color: var(--texto);
+    font-size: 13px;
+    line-height: 1.8;
+    padding: 14px 8px 8px;
+}
+
+.prazo-confirmacao strong {
+    color: var(--dourado-claro);
+    font-weight: normal;
 }
